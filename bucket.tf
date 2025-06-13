@@ -1,5 +1,5 @@
 module "gcs-bucket" {
-  source        = "./modules/gcs_bucket"
+  source        = "./modules/gcs-bucket"
   bucket_name   = var.bucket_name
   location      = var.region
   storage_class = var.storage_class

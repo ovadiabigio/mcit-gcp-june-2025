@@ -1,4 +1,4 @@
-module "my_bucket" {
+module "gcs-bucket" {
   source        = "./modules/gcs_bucket"
   bucket_name   = var.bucket_name
   location      = var.region
